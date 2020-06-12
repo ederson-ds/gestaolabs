@@ -8,7 +8,7 @@ import javax.faces.bean.ManagedBean;
 public class PaginaPrincipalMB implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	private String mensagem = "Ol·, sejam bem vindos!";
+	private String mensagem = "Ol√°, sejam bem vindos!";
 
 	public String getMensagem() {
 		return mensagem;
