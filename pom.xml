@@ -10,6 +10,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Webapp Runner -->
+		<webapp-runner.version>9.0.27.1</webapp-runner.version>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-api -->
@@ -42,7 +45,7 @@
 		<dependency>
 			<groupId>com.github.jsimone</groupId>
 			<artifactId>webapp-runner</artifactId>
-			<version>9.0.27.1</version>
+			<version>${webapp-runner.version}</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
@@ -62,7 +65,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>com.heroku</groupId>
+									<groupId>com.github.jsimone</groupId>
 									<artifactId>webapp-runner</artifactId>
 									<version>${webapp-runner.version}</version>
 									<destFileName>webapp-runner.jar</destFileName>
